@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Subscription>
+
+
+@{
+    ViewData["Title"] = "主页";
+}
+
+<style>
+
+    td{
+        border: solid 1px black;
+        padding: 10px;
+        text-align: left;
+        vertical-align: middle
+    }
+</style>
+
+
+<h3>点击下面的按钮建立连接</h3>
+
+<p>
+    <a href="https://outlook.office.com/connectors/Connect?state=myAppsState&app_id=b8fea8f9-4d2e-4a1d-918b-988f002f54b6&callback_url=http%3a%2f%2flocalhost%3a5000"><img src="https://o365connectors.blob.core.windows.net/images/ConnectToO365Button.png" alt="Connect to Office 365"></img></a>
+</p>
+
+
+<h3>下面列出了所有的订阅</h3>
+<p>
+    <table>
+        <tr>
+            <td>Object ID</td>
+            <td>WebHook</td>
+        </tr>
+
+        @foreach(var item in Model){
+            
+            <tr>
+                <td>@item.ObjectID</td>
+                <td>@item.WebHookUrl</td>
+            </tr>
+        }
+    </table>
+</p>

@@ -1,0 +1,10 @@
+C:\temp\customconnector\bin\Debug\netcoreapp2.0\customconnector.deps.json
+C:\temp\customconnector\bin\Debug\netcoreapp2.0\customconnector.runtimeconfig.json
+C:\temp\customconnector\bin\Debug\netcoreapp2.0\customconnector.runtimeconfig.dev.json
+C:\temp\customconnector\bin\Debug\netcoreapp2.0\customconnector.dll
+C:\temp\customconnector\bin\Debug\netcoreapp2.0\customconnector.pdb
+C:\temp\customconnector\obj\Debug\netcoreapp2.0\customconnector.csproj.CoreCompileInputs.cache
+C:\temp\customconnector\obj\Debug\netcoreapp2.0\customconnector.AssemblyInfoInputs.cache
+C:\temp\customconnector\obj\Debug\netcoreapp2.0\customconnector.AssemblyInfo.cs
+C:\temp\customconnector\obj\Debug\netcoreapp2.0\customconnector.dll
+C:\temp\customconnector\obj\Debug\netcoreapp2.0\customconnector.pdb
